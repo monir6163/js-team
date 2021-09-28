@@ -1,0 +1,15 @@
+@media (max-width:576px) {
+    .cartContainer {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:776px){
+    .cartContainer {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:992px){
+    .cartContainer {
+        margin-bottom: 30px;
+    }
+}
