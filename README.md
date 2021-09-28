@@ -1,6 +1,6 @@
 # Project of Js Developer Team Selection for a Concert
 
-Project Live Link:  [Js Lover](https://js-lover-developer-team-monir.netlify.app/).
+Project Live Link:  [Js Lover](https://js-lover-team-monir.netlify.app/).
 
 ## Project Details
 
