@@ -12,14 +12,15 @@ function App() {
       <Header></Header>
       <ToastContainer
         position="top-center"
-        autoClose={3000}
+        autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
         rtl={false}
         pauseOnFocusLoss
         draggable
-        pauseOnHover />
+        pauseOnHover
+      />
       <Banner></Banner>
       <DeveloperTeam></DeveloperTeam>
       <Footer></Footer>

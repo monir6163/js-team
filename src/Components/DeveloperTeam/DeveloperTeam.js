@@ -15,7 +15,7 @@ const DeveloperTeam = () => {
             .then(data => setDeveloperteam(data))
     }, []);
     // hire developer button handleDeveloper
-    const notify = () => toast("Wow Developer Hired!");
+    const notify = () => toast("Wow Developer Hired!", { theme: "dark" });
     const notifyError = () => toast.error("This Developer Already Hired!");
     const handleDeveloper = (developerteams) => {
         const newDeveloperhire = [...developerhires, developerteams];
@@ -42,7 +42,7 @@ const DeveloperTeam = () => {
                     </div>
                 </div>
                 {/* cart row */}
-                <div className="col-10 col-md-6 mx-auto col-lg-3 mt-5 mt-lg-0 cartContainer">
+                <div className="col-12 col-md-6 mx-auto col-lg-3 mt-5 mt-lg-0 cartContainer">
                     <DeveloperHire developer={developerhires}></DeveloperHire>
                 </div>
             </div>
